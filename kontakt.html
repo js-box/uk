@@ -11,6 +11,7 @@
 
 <header>
 
+<h1>Kontakt Fotoverein</h1>
 
 
 </header>
@@ -21,7 +22,48 @@
 </nav>
 
 <body>
+<form>
+  <div class="form-group">
+    <label>Name *</label> <input type="text" class="form-control" name="text_name" placeholder="" required="required">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Vorname *</label> <input type="text" class="form-control" name="text_vorname" placeholder="" required="required">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>E-Mail Adresse *</label> <input type="email" class="form-control" name="text_email" placeholder="">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Telefonnummer *</label> <input type="text" class="form-control" name="text_telefonnumer" placeholder="" required="required">
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Rückmeldung per</label> <select class="form-control" name="text_antwort">
+      <option value="Telefon">
+        Telefon
+      </option>
 
+      <option value="E-Mail">
+        E-Mail
+      </option>
+    </select>
+  </div>
+  <br>
+  <div class="form-group">
+    <label>Ihr Anliegen *</label> 
+    <textarea class="form-control" name="text_anliegen" placeholder="" required="required">
+</textarea>
+  </div>
+  <br>
+  <div class="form-group">
+    
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="text_warheit" value="warheit"> <label class="form-check-label">Hiermit bestätige ich, dass ich alle angaben wahrheitsgemäß ausgefüllt habe</label>
+    </div>
+  </div><h3>Felder markiert mit * sind Pflichtfelder</h3>
+</form>
 
 
 
