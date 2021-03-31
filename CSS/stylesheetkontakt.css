@@ -67,3 +67,9 @@ html, body {
   margin: 0;
   padding: 0;
 }
+nav {
+	float:left;
+	width: 15em;
+    flex-direction: row;
+    
+}
