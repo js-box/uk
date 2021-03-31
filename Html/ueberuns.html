@@ -7,34 +7,82 @@
 <link rel="stylesheet" href="../CSS/stylesheetkontakt.css">
 
 <title>ÜBER UNS</title>
-<h1>ÜBER UNS</h1>
+
 </head>
 
 <div class="grid-container">
-  <div class="Sidebar-Top-Left"></div>
-  <div class="Sidebar-Top-Right"></div>
+  <div class="Sidebar-Left"></div>
+  <div class="Sidebar-Right"></div>
   <div class="Fotter"></div>
-  <div class="Main">
-    
+  <div class="Head">
+    <h1>ÜBER UNS</h1>
     <nav>
       <ul>
         <li><a href="../Html/index.html">STARTSEITE</a></li>
         <li><a href="../Html/bildergalerie.html">BILDERGALERIE</a></li>
         <li><a href="../Html/ueberuns.html">ÜBER UNS</a></li>
-        <li><a href="../Html/kontakt.html">KONTAKT</a></li>
+        <li><a href="../img/bait.png">>KONTAKT</a></li>
       </ul>
     </nav>
   </div>
-
-    <div class="Sidebar-Top-Left"></div>
-    <div class="Sidebar-Top-Right"></div>
-    <div class="Fotter"></div>
-    <div class="Main"></bodey>
-
-  
-
+  <div class="Main"><body>
+    <form>
+      <div class="form-group">
+        <label>Name*</label>
+        <p><input type="text" class="form-control" name="text_name" placeholder="" required="required"></p>
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Vorname*</label> 
+        <p><input type="text" class="form-control" name="text_vorname" placeholder="" required="required"></p>
+      </div>
+      <br>
+      <div class="form-group">
+        <label>E-Mail Adresse*</label>
+        <p><input type="email" class="form-control" name="text_email" placeholder=""></p>
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Telefonnummer*</label> 
+        <p><input type="text" class="form-control" name="text_telefonnumer" placeholder="" required="required"></p>
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Rückmeldung per</label> <select class="form-control" name="text_antwort">
+          <option value="Telefon">
+            Telefon
+          </option>
     
-
-        </body>
+          <option value="E-Mail">
+            E-Mail
+          </option>
+        </select>
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Ihr Anliegen *</label> 
+        <br>
+        <textarea class="form-control" name="text_anliegen" placeholder="" required="required" >
+    </textarea>
+      </div>
+      <br>
+      <div class="form-group">
+        
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="text_warheit" value="warheit"> <label class="form-check-label">Hiermit bestätige ich, dass ich alle angaben wahrheitsgemäß ausgefüllt habe</label>
+        </div>
+        <br>
+        <div class="form-group">
+           <button type="submit" name="form-submit">Kontakt</button>
+        
+      </div><h3>Felder markiert mit * sind Pflichtfelder</h3>
+    </form>
+    
+    <form action="https://formlog.offline.ch/log" method="POST"></form>
+    
+    </body>
     </div>
+</div>
+
+
 </html>

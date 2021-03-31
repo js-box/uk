@@ -48,3 +48,10 @@ nav li a:hover{
     color:aquamarine;
     background-color: bisque;
 }
+
+body {
+    box-sizing: border-box;
+    line-height: 0.85;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #f0f0f0;
+}
