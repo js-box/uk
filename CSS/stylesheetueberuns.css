@@ -11,13 +11,14 @@ html, body, .grid-container { height: 100%; margin: 0; }
     "Sidebar-Left Main Main Sidebar-Right"
     "Sidebar-Left Main Main Sidebar-Right"
     "Fotter Fotter Fotter Fotter";
+    
 }
 
 .Sidebar-Left { grid-area: Sidebar-Left; }
 
 .Sidebar-Right { grid-area: Sidebar-Right; }
 
-.Fotter { grid-area: Fotter; }
+.Fotter { grid-area: Fotter;}
 
 .Head { grid-area: Head; }
 
@@ -45,8 +46,8 @@ background-color: wheat;
 }
 
 nav li a:hover{
-    color:aquamarine;
-    background-color: bisque;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 body {
