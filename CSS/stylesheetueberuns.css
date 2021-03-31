@@ -1,0 +1,23 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Sidebar-Top-Left Navigation Navigation Navigation Sidebar-Top-Right"
+    "Main- Main- Main- Main- Main-"
+    "Main- Main- Main- Main- Main-"
+    "Fotter Fotter Fotter Fotter Fotter";
+}
+
+.Navigation { grid-area: Navigation; }
+
+.Sidebar-Top-Left { grid-area: Sidebar-Top-Left; }
+
+.Sidebar-Top-Right { grid-area: Sidebar-Top-Right; }
+
+.Main- { grid-area: Main-; }
+
+.Fotter { grid-area: Fotter; }
