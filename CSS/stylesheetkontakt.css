@@ -1,0 +1,24 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Sidebar-Left Head Head Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Fotter Fotter Fotter Fotter";
+}
+
+.Sidebar-Left { grid-area: Sidebar-Left; }
+
+.Sidebar-Right { grid-area: Sidebar-Right; }
+
+.Fotter { grid-area: Fotter; }
+
+.Head { grid-area: Head; }
+
+.Main { grid-area: Main; }
