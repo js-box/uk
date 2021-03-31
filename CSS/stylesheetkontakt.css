@@ -1,0 +1,9 @@
+.box {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    padding: 20px;
+    background: rgb(32, 64, 250);
+    box-sizing: border-box;
+   }
+   
