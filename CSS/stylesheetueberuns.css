@@ -45,8 +45,8 @@ background-color: wheat;
 }
 
 nav li a:hover{
-    color:aquamarine;
-    background-color: bisque;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 body {
