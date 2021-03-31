@@ -22,3 +22,33 @@ html, body, .grid-container { height: 100%; margin: 0; }
 .Head { grid-area: Head; }
 
 .Main { grid-area: Main; }
+
+nav ul {
+    list-style-type: none;
+    display: table;
+}
+
+nav li{
+    float: left;
+    text-align: center;
+}
+
+nav li a
+{
+display: table-cell;
+width: 200px;
+height: 50px;
+text-decoration: none;
+color:black;
+vertical-align: middle;
+background-color: wheat;
+}
+
+nav li a:hover{
+    color:aquamarine;
+    background-color: bisque;
+}
+
+head{
+    background-color: blue;    
+}
