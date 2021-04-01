@@ -56,3 +56,10 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background: #f0f0f0;
 }
+
+.bild_ueberuns {
+    text-align: center !important;
+}
+.text_ueberuns{
+align-content: center !important;
+}
