@@ -1,0 +1,58 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Sidebar-Left Head Head Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Sidebar-Left Main Main Sidebar-Right"
+    "Fotter Fotter Fotter Fotter";
+    
+}
+
+.Sidebar-Left { grid-area: Sidebar-Left; }
+
+.Sidebar-Right { grid-area: Sidebar-Right; }
+
+.Fotter { grid-area: Fotter;}
+
+.Head { grid-area: Head; }
+
+.Main { grid-area: Main; }
+
+nav ul {
+    list-style-type: none;
+    display: table;
+}
+
+nav li{
+    float: left;
+    text-align: center;
+}
+
+nav li a
+{
+display: table-cell;
+width: 200px;
+height: 50px;
+text-decoration: none;
+color:black;
+vertical-align: middle;
+background-color: wheat;
+}
+
+nav li a:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 0.85;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #f0f0f0;
+}
