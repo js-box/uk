@@ -60,6 +60,13 @@ body {
 .bild_ueberuns {
     text-align: center !important;
 }
-.text_ueberuns{
+.test_ueberuns{
 text-align: center !important;
+}
+.personenfoto{
+text-align: center !important;
+}
+
+.test_ueberuns {
+    line-height: 120%;
 }
